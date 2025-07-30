@@ -1,22 +1,24 @@
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 // import { HookInMotion } from './components/motionhook'
-import Navbar from "./components/ui/navbar";
+// import Navbar from "./components/ui/navbar";
+import { AnimatedText } from "./components/animated-text";
 
 // import Entry from './components/entry'
 // import Exit from './components/exit'
 
 function App() {
   return (
-    // <div className='h-screen flex items-center justify-center'>
-    //   {/* <Entry /> */}
-    //   {/* <Exit /> */}
-    // </div>
+    <div className="flex min-h-screen items-center justify-center bg-black">
+      {/* <Entry /> */}
+      {/* <Exit /> */}
+      <AnimatedText />
+    </div>
 
     // <HookInMotion />
-    <BrowserRouter>
-      <Navbar />
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Navbar />
+    // </BrowserRouter>
   );
 }
 
