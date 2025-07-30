@@ -2,8 +2,8 @@
 import "./App.css";
 // import { HookInMotion } from './components/motionhook'
 // import Navbar from "./components/ui/navbar";
-import { AnimatedText } from "./components/animated-text";
-
+// import { AnimatedText } from "./components/animated-text";
+import { AnimationSequences } from "./components/animation-sequences";
 // import Entry from './components/entry'
 // import Exit from './components/exit'
 
@@ -12,7 +12,8 @@ function App() {
     <div className="flex min-h-screen items-center justify-center bg-black">
       {/* <Entry /> */}
       {/* <Exit /> */}
-      <AnimatedText />
+      {/* <AnimatedText /> */}
+      <AnimationSequences />
     </div>
 
     // <HookInMotion />
@@ -21,5 +22,6 @@ function App() {
     // </BrowserRouter>
   );
 }
+
 
 export default App;
